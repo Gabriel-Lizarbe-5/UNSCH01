@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Alquiler de habitaciones</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>ALQUILER DE HABITACIONES</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#habitaciones">Habitaciones</a></li>
+            <li><a href="#ubicacion">Ubicación</a></li>
+            <li><a href="#reservas">Reservas</a></li>
+        </ul>
+    </nav>
+    <main>
+
+        <!-- Filtro por modelo -->
+        <select id="filtro-modelo">
+            <option value="">Todas las Habitaciones</option>
+            <option value="Habitación simple">Habitacion simple</option>
+            <option value="Habitación doble">Habitacion doble</option>
+            <option value="Habitación matrimonial">Habitacion matrimonial</option>
+        </select>
+
+        <!-- Filtro por precio -->
+        <select id="filtro-precio">
+            <option value="0">Todos los precios</option>
+            <option value="30">Hasta 30 soles</option>
+            <option value="50">Hasta 50 soles</option>
+            <option value="80">Hasta 80 soles</option>
+        </select>
+
+        <section id="habitaciones">
+            <h2>Habitaciones disponibles</h2>
+            <div id="habitaciones-contenedor"></div>
+        </section>
+
+        <section id="ubicacion">
+            <h2>Ubicación</h2>
+            <p>Nuestra Hospedaje se encuentra a dos cuadras del terminal terrestre los 
+                Libertadores de America<br>Av. Perez de Cuellar con Jr. 29 de Marzo</p>
+        </section>
+
+        <section id="reservas">
+            <h2>Reservas</h2>
+            <p>Para hacer una reserva, por favor llámenos al 969469469 o envíenos un correo electrónico a
+                hospedaje@dulce sueño.com</p>
+        </section>
+    </main>
+    <footer>
+        <p>Hospedaje@ Dulces Sueños2023<br>Lizarbe Almeida Gabriel<br>Quehue Ayala Anderson
+        <br>Huamani Tudelano Jhon Samuel</p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+
+</html>

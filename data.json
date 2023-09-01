@@ -1,0 +1,64 @@
+{
+    "habitaciones": [
+        {
+            "nombre": "A-101",
+            "modelo": "Habitación simple",
+            "img": "img/habitacion simple.jpg",
+            "precio": 30
+        },
+        {
+            "nombre": "B-105",
+            "modelo": "Habitación doble",
+            "img": "img/habitacion d.jpg",
+            "precio": 50
+        },
+        {
+            "nombre": "C-110",
+            "modelo": "Habitación matrimonial",
+            "img": "img/habitacion matri.jpg",
+            "precio": 80
+        },
+        {
+            "nombre": "A-201",
+            "modelo": "Habitación simple",
+            "img": "img/habitacion simple2.jpg",
+            "precio": 30
+        },
+        {
+            "nombre": "B-205",
+            "modelo": "Habitación doble",
+            "img": "img/habitacion d3.jpg",
+            "precio": 50
+        },
+        {
+            "nombre": "C-210",
+            "modelo": "Habitación matrimonial",
+            "img": "img/habitacion matri2.jpg",
+            "precio": 80
+        },
+        {
+            "nombre": "A-301",
+            "modelo": "Habitación simple",
+            "img": "img/habitacion simple3.jpg",
+            "precio": 30
+        },
+        {
+            "nombre": "B-305",
+            "modelo": "Habitación doble",
+            "img": "img/habitacion d2.jpg",
+            "precio": 50
+        },
+        {
+            "nombre": "C-310",
+            "modelo": "Habitación matrimonial",
+            "img": "img/habitacion matri3.jpg",
+            "precio": 80
+        },
+        {
+            "nombre": "A-102",
+            "modelo": "Habitación simple",
+            "img": "img/habitacion simple4.jpg",
+            "precio": 30
+        }
+    ]
+}
